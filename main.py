@@ -80,9 +80,9 @@ def send_message(phone_number, carrier, message):
 
 
 def main():
-    # forecast = weather_query()
-    # message = format_message(forecast)
-    send_message("8475029296", "att", "Test")
+    forecast = weather_query()
+    message = format_message(forecast)
+    send_message("8475029296", "att", message)
 
 
 if __name__ == '__main__':
